@@ -181,4 +181,23 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
+
+	.container {
+		max-width: 1200px;
+	}
+
+	
+
+	.main .container {
+		display: grid;
+		grid-template-columns: 2.3fr 1fr;
+		gap: 2rem;
+	}
+
+	.main-article,
+	.main-sidebar {
+		width: auto;
+		border-radius: 0.6rem;
+		margin: 0;
+	}
 }
